@@ -128,13 +128,30 @@ class Program
         
         while (playing)
         {
-            game.StartGame();
+            Console.WriteLine("\n=== Elevens Game ===");
+            Console.WriteLine("1. Start Game");
+            Console.WriteLine("2. Exit");
+            Console.Write("Choose an option: ");
+            string choice = Console.ReadLine();
             
-            Console.WriteLine("Do you want to play again? (y/n)");
-            string response = Console.ReadLine().ToLower();
-            
-            if (response != "y")
+            if (choice == "1")
+            {
+                game.StartGame();
+                
+                Console.WriteLine("Do you want to play again? (y/n)");
+                string response = Console.ReadLine().ToLower();
+                
+                if (response != "y")
+                    playing = false;
+            }
+            else if (choice == "2")
+            {
                 playing = false;
+            }
+            else
+            {
+                Console.WriteLine("Invalid choice, please try again.");
+            }
         }
     }
 }
