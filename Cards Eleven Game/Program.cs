@@ -55,66 +55,42 @@ public class Deck
     }
 }
 
-// Table Class
-public class Table
-{
-    public List<Card> TableCards { get; private set; } = new List<Card>();
-    
-    public void SetupTable(Deck deck)
-    {
-        TableCards.Clear();
-        TableCards.Add(deck.DrawCard());
-        TableCards.Add(deck.DrawCard());
-    }
-    
-    public bool IsValidMove()
-    {
-        return TableCards.Count == 2 && (TableCards[0].Value + TableCards[1].Value == 11);
-    }
-}
-
 // Game Class
 public class Game
 {
     private Deck Deck { get; set; }
-    private Table Table { get; set; }
     
     public Game()
     {
         Deck = new Deck();
-        Table = new Table();
     }
     
     public void StartGame()
     {
         Deck.CreateDeck();
         Deck.Shuffle();
-        Table.SetupTable(Deck);
-        DisplayGameState();
+        PlayRound();
     }
     
-    public bool CheckWinCondition()
+    private void PlayRound()
     {
-        return Table.IsValidMove();
-    }
-    
-    public void RestartGame()
-    {
-        StartGame();
-    }
-    
-    private void DisplayGameState()
-    {
-        Console.WriteLine("Cards on the table:");
-        foreach (var card in Table.TableCards)
-        {
-            Console.WriteLine($"{card.Rank} of {card.Suit} (Value: {card.Value})");
-        }
+        Console.WriteLine("\nPress any key to draw your first card...");
+        Console.ReadKey();
+        Card firstCard = Deck.DrawCard();
+        Console.WriteLine($"\nFirst card: {firstCard.Rank} of {firstCard.Suit} (Value: {firstCard.Value})\n");
         
-        if (CheckWinCondition())
-            Console.WriteLine("Congratulations! You win!");
+        Console.WriteLine("Press any key to draw your second card...");
+        Console.ReadKey();
+        Card secondCard = Deck.DrawCard();
+        Console.WriteLine($"\nSecond card: {secondCard.Rank} of {secondCard.Suit} (Value: {secondCard.Value})\n");
+        
+        int totalValue = firstCard.Value + secondCard.Value;
+        Console.WriteLine($"Total Value: {totalValue}\n");
+        
+        if (totalValue >= 11)
+            Console.WriteLine("Congratulations! You win!\n");
         else
-            Console.WriteLine("Sorry, you lose. Try again!");
+            Console.WriteLine("Sorry, you lose. Try again!\n");
     }
 }
 
