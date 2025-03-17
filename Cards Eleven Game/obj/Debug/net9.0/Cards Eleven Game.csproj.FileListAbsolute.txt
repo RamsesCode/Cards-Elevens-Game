@@ -1,0 +1,15 @@
+/Users/ramses/Documents/Spring 2025 Classes/CSC 350H/Cards Eleven in here/Cards-Elevens-Game/Cards Eleven Game/Cards Eleven Game/bin/Debug/net9.0/Cards Eleven Game
+/Users/ramses/Documents/Spring 2025 Classes/CSC 350H/Cards Eleven in here/Cards-Elevens-Game/Cards Eleven Game/Cards Eleven Game/bin/Debug/net9.0/Cards Eleven Game.deps.json
+/Users/ramses/Documents/Spring 2025 Classes/CSC 350H/Cards Eleven in here/Cards-Elevens-Game/Cards Eleven Game/Cards Eleven Game/bin/Debug/net9.0/Cards Eleven Game.runtimeconfig.json
+/Users/ramses/Documents/Spring 2025 Classes/CSC 350H/Cards Eleven in here/Cards-Elevens-Game/Cards Eleven Game/Cards Eleven Game/bin/Debug/net9.0/Cards Eleven Game.dll
+/Users/ramses/Documents/Spring 2025 Classes/CSC 350H/Cards Eleven in here/Cards-Elevens-Game/Cards Eleven Game/Cards Eleven Game/bin/Debug/net9.0/Cards Eleven Game.pdb
+/Users/ramses/Documents/Spring 2025 Classes/CSC 350H/Cards Eleven in here/Cards-Elevens-Game/Cards Eleven Game/Cards Eleven Game/obj/Debug/net9.0/Cards Eleven Game.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ramses/Documents/Spring 2025 Classes/CSC 350H/Cards Eleven in here/Cards-Elevens-Game/Cards Eleven Game/Cards Eleven Game/obj/Debug/net9.0/Cards Eleven Game.AssemblyInfoInputs.cache
+/Users/ramses/Documents/Spring 2025 Classes/CSC 350H/Cards Eleven in here/Cards-Elevens-Game/Cards Eleven Game/Cards Eleven Game/obj/Debug/net9.0/Cards Eleven Game.AssemblyInfo.cs
+/Users/ramses/Documents/Spring 2025 Classes/CSC 350H/Cards Eleven in here/Cards-Elevens-Game/Cards Eleven Game/Cards Eleven Game/obj/Debug/net9.0/Cards Eleven Game.csproj.CoreCompileInputs.cache
+/Users/ramses/Documents/Spring 2025 Classes/CSC 350H/Cards Eleven in here/Cards-Elevens-Game/Cards Eleven Game/Cards Eleven Game/obj/Debug/net9.0/Cards Eleven Game.sourcelink.json
+/Users/ramses/Documents/Spring 2025 Classes/CSC 350H/Cards Eleven in here/Cards-Elevens-Game/Cards Eleven Game/Cards Eleven Game/obj/Debug/net9.0/Cards Eleven Game.dll
+/Users/ramses/Documents/Spring 2025 Classes/CSC 350H/Cards Eleven in here/Cards-Elevens-Game/Cards Eleven Game/Cards Eleven Game/obj/Debug/net9.0/refint/Cards Eleven Game.dll
+/Users/ramses/Documents/Spring 2025 Classes/CSC 350H/Cards Eleven in here/Cards-Elevens-Game/Cards Eleven Game/Cards Eleven Game/obj/Debug/net9.0/Cards Eleven Game.pdb
+/Users/ramses/Documents/Spring 2025 Classes/CSC 350H/Cards Eleven in here/Cards-Elevens-Game/Cards Eleven Game/Cards Eleven Game/obj/Debug/net9.0/Cards Eleven Game.genruntimeconfig.cache
+/Users/ramses/Documents/Spring 2025 Classes/CSC 350H/Cards Eleven in here/Cards-Elevens-Game/Cards Eleven Game/Cards Eleven Game/obj/Debug/net9.0/ref/Cards Eleven Game.dll
