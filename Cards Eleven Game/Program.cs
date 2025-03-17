@@ -5,6 +5,10 @@ using System.Collections.Generic;
 public enum Suit { Hearts, Diamonds, Clubs, Spades }
 public enum Rank { Ace = 1, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Jack, Queen, King }
 
+
+
+
+
 // Card Class
 public class Card
 {
@@ -19,6 +23,9 @@ public class Card
         Rank = rank;
     }
 }
+
+
+
 
 // Deck Class
 public class Deck
@@ -36,6 +43,11 @@ public class Deck
         }
     }
     
+
+
+
+
+
     public void Shuffle()
     {
         Random rng = new Random();
@@ -55,6 +67,9 @@ public class Deck
     }
 }
 
+
+
+
 // Game Class
 public class Game
 {
@@ -72,6 +87,8 @@ public class Game
         PlayRound();
     }
     
+
+
     private void PlayRound()
     {
         Console.WriteLine("\nPress any key to draw your first card...");
@@ -93,6 +110,9 @@ public class Game
             Console.WriteLine("Sorry, you lose. Try again!\n");
     }
 }
+
+
+
 
 // Main Program
 class Program
